@@ -23,7 +23,7 @@ const config = {
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: 'arshid.mo',
-    telegram: 'https://t.me/AR3H1D',
+    telegram: 'AR3H1D',
     website: 'https://gravatar.com/ar3h1d',
     phone: '',
     email: 'barbod.mousavi@outlook.com',
