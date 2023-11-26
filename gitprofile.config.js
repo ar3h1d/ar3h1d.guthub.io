@@ -2,66 +2,96 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'ar3h1d', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 4, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'barbod-mousavi-27852437',
     twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    mastodon: 'sgb3dayk@mstdn.social',
     facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
+    instagram: 'ar3h1d',
+    youtube: 'ar3h1d', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://gravatar.com/ar3h1d',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'barbod.mousavi@outlook.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    '_Video Editing_',
+    'Adobe Premiere Pro',
+    'Adobe Audition',
+    'DaVinci Resolve',
+    'Kden Live',
+    'Avid Media Composer',
+    '_Graphic Design_',
+    'Adobe Photoshop',
+    'Adobe Illustrator',
+    'GIMP',
+    'InkScape',
+    '_Motion Graphic and Animation_',
+    'Adobe After Effects',
+    'Blender',
+    '_Digital Art_',
+    'Krita',
+    '_Programming_',
+    'Python',
+    'Javascript',
+    '_Research_',
+    'Anytype',
+    'Obsidian',
+    'Raindrop',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Eniac Tech',
+      position: 'Research and Development Specialist',
+      from: 'April 2022',
+      to: 'July 2023',
+      companyLink: 'https://www.eniac-tech.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: '19;92 Studio',
+      position: 'Co-founder, Directing, Editing, Social Media',
+      from: 'July 2020',
+      to: 'July 2023',
+      companyLink: 'https://1992studio.wixsite.com/site?lang=en',
+    },
+    {
+      company: 'Snow in the Abyss Short Film',
+      position: 'Edit, Sound design, Color Correction',
+      from: '2019',
+      to: '2020',
+      companyLink: '',
+    },
+    {
+      company: 'Yellow Pickaxe Short Film',
+      position: 'Edit, Sound design, Color Correction',
+      from: '2018',
+      to: '2019',
+      companyLink: 'https://filmfreeway.com/YellowPickaxe',
+    },
+    {
+      company: 'Cockcrow Short Documentary',
+      position: 'Edit, Sound design, Color Correction',
+      from: '2017',
+      to: '2018',
+      companyLink: 'https://www.imdb.com/title/tt9217626/',
     },
   ],
   /* certifications: [
@@ -74,40 +104,81 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Okan University',
+      degree: 'Master\'s Degree, Film and Television Directing',
+      from: '2023',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'University of Applied Science and Technology',
+      degree: 'Bachelor\'s Degree, Cinema Directing',
       from: '2012',
       to: '2014',
+    },
+    {
+      institution: 'University of Applied Science and Technology',
+      degree: 'Associate Degree, Film Editing',
+      from: '2018',
+      to: '2020',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Cockcrow',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Without the power of hearing and speaking, Nezam wants to call to Adhan.',
+      imageUrl: 'https://black_hole-3kf-1-v8497602.deta.app/api/photo/avicz8r33rbq.jpg',
+      link: 'https://www.imdb.com/title/tt9217626',
     },
     {
-      title: 'Project Name',
+      title: 'Yellow Pickaxe',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'A father named Ibrahim, who is a construction worker, because of poverty and his disability to obtain his daughter\'s medicine, looses his daughter. He decides to destroy a wall which is a symbol of his life and finally behind this wall, he finds …',
+      imageUrl: 'https://filmfreeway-production-storage-01-storage.filmfreeway.com/press_kits/posters/001/632/465/original/0797cf9238-poster.jpg?1597781151',
+      link: 'https://filmfreeway.com/YellowPickaxe',
+    },
+    {
+      title: 'Animation',
+      description:
+        'An animation student project, done during the associate\'s degree',
+      imageUrl: 'https://black_hole-3kf-1-v8497602.deta.app/api/photo/xl5j5h14aznb.png',
+      link: 'https://youtu.be/X3Uczt8MVy0',
+    },
+    {
+      title: '19;92 Studio Motion Graphic',
+      description:
+        'A short motion graphic video to introduce the 19;92 studio brand',
+      imageUrl: 'https://black_hole-3kf-1-v8497602.deta.app/api/photo/6efzdgwji19l.png',
+      link: 'https://youtube.com/shorts/dtBM-buTTsc',
+    },
+    {
+      title: 'Peyrang Magazin Motion Graphic',
+      description:
+        'A short motion graphic video to introduce and launch the Peyrang literary magazin',
+      imageUrl: 'https://black_hole-3kf-1-v8497602.deta.app/api/photo/el7823zni9u5.png',
+      link: 'https://youtu.be/XQIxS8--q6s',
+    },
+    {
+      title: 'SKM Industrial Machinery',
+      description:
+        'Advertisement for SKM Industrial Machinery',
+      imageUrl: 'https://black_hole-3kf-1-v8497602.deta.app/api/photo/m3rzlvto8al7.png',
+      link: 'https://youtu.be/QKmbXZI_DJc',
+    },
+    {
+      title: 'Digital Painting',
+      description:
+        'Some of my paintings on deviantart',
+      imageUrl: 'https://black_hole-3kf-1-v8497602.deta.app/api/photo/nzbkmg479vsq.png',
+      link: 'https://www.deviantart.com/arshid7',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -119,7 +190,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'pastel',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -180,7 +251,7 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/ar3h1d/portfolio"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
