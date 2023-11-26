@@ -12,7 +12,7 @@ const config = {
   },
   social: {
     linkedin: 'barbod-mousavi-27852437',
-    twitter: 'arif_szn',
+    twitter: '',
     mastodon: 'sgb3dayk@mstdn.social',
     facebook: '',
     instagram: 'ar3h1d',
@@ -104,19 +104,19 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Okan University',
+      institution: 'Okan University, Istanbul',
       degree: 'Master\'s Degree, Film and Television Directing',
       from: '2023',
       to: 'Present',
     },
     {
-      institution: 'University of Applied Science and Technology',
+      institution: 'University of Applied Science and Technology, Tehran',
       degree: 'Bachelor\'s Degree, Cinema Directing',
-      from: '2012',
-      to: '2014',
+      from: '2020',
+      to: '2022',
     },
     {
-      institution: 'University of Applied Science and Technology',
+      institution: 'University of Applied Science and Technology, Tehran',
       degree: 'Associate Degree, Film Editing',
       from: '2018',
       to: '2020',
