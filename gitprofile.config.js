@@ -3,11 +3,11 @@
 const config = {
   github: {
     username: 'ar3h1d', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    sortBy: 'updated', // stars | updated
     limit: 4, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      forks: true, // Forked projects will not be displayed if set to true.
+      projects: ['portfolio'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -22,15 +22,15 @@ const config = {
     medium: '',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
+    skype: 'arshid.mo',
+    telegram: 'https://t.me/AR3H1D',
     website: 'https://gravatar.com/ar3h1d',
     phone: '',
     email: 'barbod.mousavi@outlook.com',
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/ar3h1d/portfolio/blob/a4608665295dc31a883e371389e96bfecee77008/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     '_Video Editing_',
