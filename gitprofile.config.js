@@ -125,6 +125,13 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
+        {
+      title: 'Demo Reel',
+      description:
+        'A quick demo reel of my editing work.',
+      imageUrl: 'https://i.imgur.com/HiBT2dN.png',
+      link: 'https://youtu.be/0IFsONV5Zzs',
+    },
     {
       title: 'Cockcrow',
       description:
